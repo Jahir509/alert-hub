@@ -1,4 +1,4 @@
-import { NEW_ALERT_CHANNEL } from './alert.service.js';
+import { NEW_ALERT_CHANNEL } from './alerts.service.js';
 
 // Server-Sent Events hub. Redis pub/sub fans a new alert out to EVERY instance,
 // and each instance forwards it to the SSE clients connected to it.
